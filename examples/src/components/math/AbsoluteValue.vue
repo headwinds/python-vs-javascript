@@ -1,0 +1,35 @@
+<template>
+  <div class="Q01 cf ph2-ns mb4-ns mb3" id="math">
+    <h3 class="tc normal f3-ns f4 mb2">Math: <strong>Absolute Value</strong></h3>
+    <div class="fl w-100 w-50-l pa2 mb3">
+      <h4 class="f5 mt0 mb2 normal"><strong>Python 3</strong> / <a href="https://docs.python.org/3/library/functions.html#abs"><code>abs</code></a></h4>
+      <div class="overflow-auto ba bw2 b--white br4">
+        <pre><code class="language-python"># 100
+print(abs(-100))
+# 50
+print(abs(50))</code></pre>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-l pa2 mb3">
+      <h4 class="f5 mt0 mb2 normal"><strong>JavaScript (ES2015)</strong> / <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs"><code>abs</code></a></h4>
+      <div class="overflow-auto ba bw2 b--white br4">
+        <pre><code class="language-javascript">// 100
+console.log(Math.abs(-100))
+// 50
+console.log(Math.abs(50))</code></pre>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'AbsoluteValue',
+  props: {},
+}
+</script>
+
+<style>
+
+
+</style>
