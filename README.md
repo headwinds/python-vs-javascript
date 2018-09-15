@@ -2,6 +2,14 @@
 
 [![](static/images/og.jpg)](https://sayazamurai.github.io/python-vs-javascript/)
 
+## Getting Started
+
+```
+cd examples
+yarn
+yarn serve
+```
+
 ## Contributing
 
-This single page app is created with [VueJS 3.0](https://vuejs.org/). Each lesson has its own vue file and should be easy to find via a client-side search (which is yet to be implemented). If you would like to edit or add a lesson, please fork the projec, find the lesson you want to edit or use the Template.vue file to create your own and then make a PR. 
+This single page app is created with [VueJS 3.0](https://vuejs.org/). Each lesson has its own vue file and should be easy to find via a client-side search (which is yet to be implemented). If you would like to edit or add a lesson, please fork the projec, find the lesson you want to edit or use the Template.vue file to create your own and then make a PR.
