@@ -34,14 +34,6 @@ console.log(Math.round(1.5))
 export default {
   name: 'AbsoluteValue',
   props: {},
-  watch: {
-  // Note : paste.content is declared as string and assume paste is defined in Vue data
-  'paste.content': function(value) {
-    let editor = document.querySelector('#editor code');
-    editor.innerHTML = value;
-    this.$nextTick(()=> Prism.highlightElement(editor));
-  }
-}
 }
 </script>
 
